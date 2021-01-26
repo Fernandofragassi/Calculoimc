@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculo do IMC</title>
+</head>
+<body>
+    <form method="" action="" id="formulario"><!---->
+        <div class="row">
+         <label for="kilos">Kilos:</label> <!--Rotula, amarra um com outro-->
+            <input type="text" name="kilos" id="kilos"> <!--name e id sempre com o mesmo nome, dentro do dom-->
+        </div>
+
+        <div class="row">
+            <label for="metro">Altura:</label>
+            <input type="text" name="metro" id="metro"> <!--name e id sempre com o mesmo nome, dentro do dom-->
+        </div>
+
+        <div class="row">
+            <label for="centimetro">Centímetros:</label>
+            <input type="text" name="centimetro" id="centimetro"> <!--name e id sempre com o mesmo nome, dentro do dom-->
+        </div>
+
+        <div>
+            <input id="button" type="submit" value="Calcular"><!---->
+        </div>
+
+        <div>
+            <input id="button2" type="reset" value="limpar"><!---->
+           
+        </div>
+
+        <div id="resultado">
+            
+        </div>
+
+    </form>
+<script src="js/aplicacao.js"></script>
+</body>
+</html>
